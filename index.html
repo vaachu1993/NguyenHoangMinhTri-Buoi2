@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Product Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    th {
+      background: #222;
+      color: #fff;
+    }
+
+    img {
+      width: 80px;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .price {
+      color: #e63946;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📦 Product List</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Image</th>
+        <th>Title</th>
+        <th>Category</th>
+        <th>Price ($)</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody id="product-table-body">
+      <!-- JS render here -->
+    </tbody>
+  </table>
+
+  <script src="main.js"></script>
+</body>
+</html>
